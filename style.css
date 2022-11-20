@@ -1,0 +1,81 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 2em 10em;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 1em;
+        border-bottom: 2px solid rgb(0, 149, 255);
+        text-transform: uppercase;
+    }
+    
+    .btn-add {
+        width: 8em;
+        height: 3em;
+        font-size: 1.5em;
+        background-color: rgb(0, 149, 255);
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 0.2em;
+        border: none;
+    }
+    
+    main {
+        margin-top: 2em;
+    }
+    
+    main h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #div-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 2em 0;
+        padding: 0 4rem;
+        justify-content: center;
+    }
+    
+    .baton {
+        width: 5em;
+        height: 12em;
+        margin: 0 1em 1em 0;
+        background-color: rgb(122, 122, 227);
+        opacity: 0.5;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        margin: 2em;
+    }
+    
+    button {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2em 1rem;
+        padding: 0 4rem;
+        align-items: center;
+        justify-content: center;
+        width: 6em;
+        height: 3em;
+        font-size: 1.5em;
+        background-color: rgb(121, 192, 243);
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 0.2em;
+        border: none;
+    }
